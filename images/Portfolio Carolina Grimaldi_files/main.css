@@ -1,0 +1,155 @@
+/* 
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+*/
+
+/******************************************
+/* COLOURS
+/*******************************************/
+
+/* add a list of colours used in the project */
+
+/******************************************
+/* SENSIBLE DEFAULTS                   
+/*******************************************/
+
+* {
+     box-sizing: border-box;
+     font-family: 'Lato', sans-serif;
+     font-weight: 300;
+}
+img {
+	max-width:100%;
+}
+
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+.site-container {
+	margin: 0 auto;
+}
+
+/******************************************
+/* ROW1                   
+/*******************************************/
+
+.logo {
+	height: 50px;
+}
+
+.row1 {
+	height:560px;
+	background: #f6f6f6;
+}
+
+.row2 {
+	height:580px;
+	background: lightgrey;
+}
+
+
+.notlogo {
+	margin-top:15px;
+}
+
+header nav a {
+	color: #000000;
+	text-decoration: none;
+}
+
+header nav ul {
+	display: inline-block;
+    list-style-type: none;
+}
+
+header nav ul li {
+	float: left;
+	margin: 0;
+	padding: 0 20px;
+	letter-spacing: 1px;
+	
+}
+
+header nav {
+	text-align: center;
+	padding-top: 5px;
+}
+
+.aboutme {
+	text-align: center;
+	width:650px;
+	padding: 55px;
+	margin:0 auto;
+}
+
+.mywork {
+	text-align: center;
+	width:750px;
+	padding: 35px 0;
+	margin:0 auto;
+}
+
+.mywork img {
+	width: 250px;
+	padding: 10px;
+}
+
+.imagem {
+    position: relative;
+    text-align: center;
+    color: white;
+    float:left;
+
+}
+
+.title {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility:hidden;
+}
+
+
+img:hover {
+	-webkit-filter:  brightness(91%);
+}
+
+.imagem:hover .title {
+	visibility: visible;
+}
+
+/*******************************************/
+
+/******************************************
+/* HELPER CLASSES
+/*******************************************/
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+     content: " ";
+     display: table;
+}
+.clearfix:after {
+     clear:both;
+}
+
+.is-hidden {
+     display: none;
+}
+.is-visible {
+     display: block;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+
+
+
+
